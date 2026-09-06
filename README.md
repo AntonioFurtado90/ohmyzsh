@@ -561,4 +561,16 @@ Oh My Zsh is released under the [MIT license](LICENSE.txt).
 
 Oh My Zsh was started by the team at [Planet Argon](https://www.planetargon.com/?utm_source=github), a
 [Ruby on Rails development agency](https://www.planetargon.com/services/ruby-on-rails-development?utm_source=github).
+
+## Alterações nesta branch
+
+Esta branch (`docs/contributing-fixes`), publicada no fork
+[AntonioFurtado90/ohmyzsh](https://github.com/AntonioFurtado90/ohmyzsh), contém ajustes pessoais que ainda não
+foram submetidos como Pull Request ao repositório oficial:
+
+- **`.markdownlint.json`**: arquivo novo desabilitando a regra `MD013` (limite de comprimento de linha) do
+  markdownlint.
+- **`CONTRIBUTING.md`**: adicionadas linhas em branco ao redor de blocos de código (fenced code blocks) para
+  satisfazer o markdownlint, e corrigida uma linha que estava corrompida ("Here's what we're looking
+  forcontribution does...") restaurando o bullet **You understand your code** que havia sido perdido.
 Check out our [other open source projects](https://www.planetargon.com/open-source?utm_source=github).
